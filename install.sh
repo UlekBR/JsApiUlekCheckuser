@@ -22,6 +22,7 @@ rm -f /usr/local/bin/ulekCheckuser
 
 apt update -y && apt upgrade -y
 curl -fsSL https://bun.sh/install | bash
+source /root/.bashrc 
 
 git clone https://github.com/UlekBR/JsApiUlekCheckuser.git
 chmod +x /root/JsApiUlekCheckuser/apiMenu.sh
