@@ -21,6 +21,8 @@ rm -f /usr/local/bin/ulekCheckuser
 
 
 apt update -y && apt upgrade -y
+apt install curl git -y
+
 curl -fsSL https://bun.sh/install | bash
 source /root/.bashrc 
 
