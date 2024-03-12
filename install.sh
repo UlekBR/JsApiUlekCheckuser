@@ -32,4 +32,4 @@ chmod +x /root/JsApiUlekCheckuser/init.sh
 ln -s /root/JsApiUlekCheckuser/apiMenu.sh /usr/local/bin/menuApiCheckuser
 
 clear
-echo -e "Para iniciar o menu digite: ${verde}menuApiCheckuser${reset}"
+menuApiCheckuser
